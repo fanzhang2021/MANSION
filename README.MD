@@ -1,18 +1,18 @@
 ### run a simple example:
-    #### prepare:
+#### prepare:
         unzip files:
             ./MANSION/data/test/ruby/
             ./MANSION/data/train_valid/ruby/
         download a model:
             /java_fine_turn_GraBertlastepoch_lookLoss_GraBert/download_info.txt
 
-    #### train a knowledge module：
+#### train a knowledge module：
         1, train a ruby knowledge module
             train: run src/train_kms/train_kms.py
             infer: run src/train_kms/kms_inference.py
             get mrr: run src/train_kms/mrr.py
 
-    #### train a knowledge fusion module:
+#### train a knowledge fusion module:
         2, train a ruby knowledge fusion module
             train: run src/train_fusion/fusion_final_version.py
             infer: run src/train_fusion/fusion_inference.py
